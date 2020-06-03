@@ -1,0 +1,6 @@
+.history
+node_modules
+dist
+package-lock.json
+yarn.lock
+src/database/database.sqlite
