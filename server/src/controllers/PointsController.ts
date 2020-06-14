@@ -76,7 +76,7 @@ class PointsController {
 
     const insertedIds = await trx('points').insert(point);
 
-    console.log(insertedIds);
+    console.log(insertedIds[0]);
 
     const point_id = insertedIds[0];
 
