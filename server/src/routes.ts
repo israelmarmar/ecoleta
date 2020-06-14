@@ -23,7 +23,7 @@ routes.post('/points', upload.single('image'),
             latitude: Joi.number().required(),
             longitude: Joi.number().required(),
             city: Joi.string().required(),
-            uf: Joi.string().required().required().max(2),
+            uf: Joi.string().required().max(2),
             items: Joi.string().required()
         })
     }, {
