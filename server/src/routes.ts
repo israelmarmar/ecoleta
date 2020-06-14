@@ -25,10 +25,11 @@ routes.post('/points', upload.single('image'),
             city: Joi.string().required(),
             uf: Joi.string().required().max(2),
             items: Joi.string().required()
-        })
+        }, 
+        )
     }, {
         abortEarly: false
-    }),
+    }).unknown(),
     pointsController.create
 );
 routes.get('/points/:id', pointsController.show);
