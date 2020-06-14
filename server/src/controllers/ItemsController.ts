@@ -9,7 +9,7 @@ class ItemsController {
     const serializedItems = items.map((item) => ({
       id: item.id,
       title: item.title,
-      image_url: `https://ecoleta-imm.herokuapp.com//uploads/${item.image}`,
+      image_url: `https://ecoleta-imm.herokuapp.com/uploads/${item.image}`,
     }));
 
     return res.json(serializedItems);
