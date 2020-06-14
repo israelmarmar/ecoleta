@@ -20,7 +20,7 @@ class PointsController {
 
 
       const serializedPoints = points.map((item) => ({
-        ...points,
+        ...item,
         image_url: `https://ecoleta-imm.herokuapp.com/uploads/${item.image}`,
       }));
 
