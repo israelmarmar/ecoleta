@@ -1,14 +1,11 @@
 # Ecoleta Server API
 
-![alt text](https://github.com/marciocamello/nlw-ecoleta-server/blob/master/capa.jpeg)
-
 :rocket: Technologies
 
 - NodeJS
 - ExpressJS
 - Typescript
 - Knex  
-- JWT
 
 :blue_book: Refs
 
