@@ -28,8 +28,9 @@ routes.post('/points', upload.single('image'),
         }, 
         )
     }, {
-        abortEarly: false
-    }).unknown(),
+        abortEarly: false,
+        allowUnknown: true
+    }),
     pointsController.create
 );
 routes.get('/points/:id', pointsController.show);
